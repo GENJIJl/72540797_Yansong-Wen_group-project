@@ -1,0 +1,16 @@
+.main-content{
+
+
+    width:70% !important;
+    margin:0 auto  !important;
+    background: rgb(1,1,1,0) !important;
+    border-color: rgb(1,1,1,0) !important;
+    box-shadow: rgb(1,1,1,0) 0px 0px 0px;
+}
+
+.detail-title{
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+

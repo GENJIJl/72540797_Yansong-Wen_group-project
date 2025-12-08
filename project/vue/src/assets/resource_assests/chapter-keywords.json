@@ -1,0 +1,12 @@
+{
+  "chapter1": ["Basic Syntax", "Variables", "Loops", "Data Types"],
+  "chapter2": ["Object-Oriented", "Class", "Object", "Inheritance"],
+  "chapter3": ["Functions", "Parameters", "Return Value", "Recursion"],
+  "chapter4": ["Data Sharing", "Protection", "Scope"],
+  "chapter5": ["Arrays", "Pointers", "Strings"],
+  "chapter6": ["Inheritance", "Derivation", "Multiple Inheritance"],
+  "chapter7": ["Polymorphism", "Virtual Functions", "Abstract Class"],
+  "chapter8": ["Templates", "Group Data", "Generics"],
+  "chapter9": ["STL", "Containers", "Iterators"],
+  "chapter10": ["Exceptions", "try-catch", "throw"]
+}

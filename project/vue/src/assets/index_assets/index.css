@@ -1,0 +1,180 @@
+
+
+.main-content{
+    background-color:  rgb(205, 205, 205, 0.1) !important;
+    width: 95% !important;
+    height: 5000px !important;
+    margin-left: 2.5% !important;
+    box-sizing: border-box !important;
+    margin-top: 10px !important;
+    border-radius: 10px !important;
+    padding-bottom: 20px !important;
+    border-color: black !important;
+    border-style: dot-dot-dash !important;
+    border-width: 1px !important;
+    box-shadow: #cccccc 0px 0px 10px !important;
+    align-items: center !important;
+}
+
+.main-line{
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.main-line-1{
+    width: 35%;
+    height: 95%;
+    margin-top: 2%;
+    margin-bottom: -5%;
+}
+
+.typewriter {
+    overflow: hidden; /* 隐藏溢出文本 */
+    border-right: .15em solid lime; /* 光标效果 */
+    white-space: nowrap; /* 保持文本在一行 */
+    margin: 0 auto;
+    letter-spacing: .15em; /* 字符间距 */
+    animation:
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+}
+
+/* 打字效果 */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* 光标闪烁效果 */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: lime; }
+}
+
+.main-line-2{
+    width: 60%;
+    height: 100%;
+    margin-left: 1px;
+}
+.el-carousel__indicators {
+    bottom: 120px !important;  /* 原默认值为 0，增加 20px 使其上移 */
+
+}
+.el-carousel__item {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100%;
+    border-radius: 10px;
+}
+/* 移除卡片边框 */
+#latest .el-card {
+    border: none !important;
+    box-shadow: none !important;
+    margin-top: 15px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-color: black;
+    border: 1px solid !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    pxobject-fit: cover; /* 保持图片比例 */
+    object-fit: contain; /* 保持图片比例 */
+}
+
+.bottom.clearfix {
+    padding-top: 10px !important; /* 添加这行 */
+}
+.time {
+    display: block;
+    margin-top: 10px; /* 添加这行 */
+}
+
+#latest{
+    border: 2px solid;
+    border-color:black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+
+
+#recommended{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid;
+    border-color:black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    justify-content: space-between;
+}
+.resource-card {
+    position: relative;
+    height: 90% !important;
+    margin-top: 5% !important;
+    transition: all 0.3s ease;
+}
+
+.resource-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.recommend-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.stats-item {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #606266;
+}
+
+/* 底部信息样式 */
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+    font-size: 12px;
+    color: #999;
+}
+
+.button {
+    padding: 0;
+    min-height: auto;
+}

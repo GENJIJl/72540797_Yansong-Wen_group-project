@@ -1,0 +1,158 @@
+.fenlei{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fenlei-content{
+    background-color: white;
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+
+}
+
+/* 统一间距 */
+.resource-section, .chapter-section {
+    margin: 40px 10%;
+}
+
+.section-title {
+    margin: 50px 0 30px;
+    text-shadow: 3px 0px 0px lime;
+    white-space: nowrap;
+    text-align: center;
+}
+
+/* 章节折叠样式 */
+.chapter-collapse-item {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.chapter-collapse-item /deep/ .el-collapse-item__header {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #f8f9fa;
+    border-bottom: none;
+}
+
+.chapter-collapse-item /deep/ .el-collapse-item__wrap {
+    background-color: #fff;
+    border-top: 1px solid #ebeef5;
+}
+
+.chapter-collapse-item /deep/ .el-collapse-item__content {
+    padding: 20px;
+}
+
+.chapter-header-title {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.chapter-header-title i {
+    margin-right: 10px;
+    color: #409EFF;
+}
+
+.chapter-count-tag {
+    margin-left: 15px;
+}
+
+
+.subtype-block {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.subtype-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* 资源列表样式 */
+.resource-list {
+    margin-top: 15px;
+}
+
+.resource-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.resource-item:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.resource-title {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    overflow: hidden;
+}
+
+.resource-title i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #409EFF;
+}
+
+.resource-title span {
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.resource-actions {
+    display: flex;
+    align-items: center;
+}
+
+.resource-date {
+    color: #909399;
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.action-buttons .el-button {
+    margin-left: 15px;
+}
+
+.loading-container {
+    padding: 50px 20%;
+}
+
